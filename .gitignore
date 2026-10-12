@@ -1,0 +1,9 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+artifacts/
+runs/
+data/raw/*
+!data/raw/.gitkeep
+vendor/

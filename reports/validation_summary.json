@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-12 06:08 Asia/Taipei",
+  "tests_passed": 11,
+  "cuda_matmul": true,
+  "api_http_verified": true,
+  "tensorboard_http_verified": true,
+  "all_stage_cache_equal": true,
+  "lora_merge_greedy_equal": true,
+  "synthetic_data_only": true,
+  "long_laptop_training_completed": false
+}

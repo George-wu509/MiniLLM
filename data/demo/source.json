@@ -1,0 +1,6 @@
+{
+  "origin": "Locally generated educational synthetic data",
+  "license": "CC0-1.0",
+  "purpose": "Pipeline verification; not a useful language model corpus.",
+  "no_downloaded_model_weights": true
+}

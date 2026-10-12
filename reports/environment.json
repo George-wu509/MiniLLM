@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-11T21:55:42.021940+00:00",
+  "versions": {
+    "torch": "2.9.1+cu128",
+    "transformers": "4.57.6",
+    "trl": "0.24.0",
+    "peft": "0.17.1",
+    "datasets": "4.3.0",
+    "tokenizers": "0.22.1",
+    "accelerate": "1.11.0"
+  },
+  "upstream_commits": {
+    "minimind": "f659b55761b754d306bd140573493a6543cafd7f",
+    "nanogpt": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291"
+  },
+  "ram_gb": 63.68,
+  "cuda_available": true,
+  "torch_cuda": "12.8",
+  "gpu": "NVIDIA RTX 4000 Ada Generation Laptop GPU",
+  "vram_gb": 11.99,
+  "bf16": true,
+  "cuda_matmul_ok": true
+}

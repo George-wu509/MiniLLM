@@ -1,0 +1,353 @@
+{
+  "health": {
+    "status": "ok",
+    "stage": "dpo",
+    "device": "cuda"
+  },
+  "chat_completion": {
+    "id": "chatcmpl-322b62ee517344b1b2fa9157ae6f430e",
+    "object": "chat.completion",
+    "created": 1791756139,
+    "model": "dpo",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "eg 17 144 tokens� fromdelu"
+        },
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 22,
+      "completion_tokens": 8,
+      "total_tokens": 30
+    }
+  },
+  "api_metrics": {
+    "requests": 1,
+    "completion_tokens": 8,
+    "generation_seconds": 0.2160466000204906
+  },
+  "tensorboard_scalar_tags": {
+    "base": {
+      "train_loss": {
+        "displayName": "train_loss",
+        "description": ""
+      },
+      "grad_norm_before_clip": {
+        "displayName": "grad_norm_before_clip",
+        "description": ""
+      },
+      "learning_rate": {
+        "displayName": "learning_rate",
+        "description": ""
+      },
+      "tokens_per_second": {
+        "displayName": "tokens_per_second",
+        "description": ""
+      },
+      "raw_validation_loss": {
+        "displayName": "raw_validation_loss",
+        "description": ""
+      }
+    },
+    "dpo": {
+      "train/loss": {
+        "displayName": "train/loss",
+        "description": ""
+      },
+      "train/grad_norm": {
+        "displayName": "train/grad_norm",
+        "description": ""
+      },
+      "train/learning_rate": {
+        "displayName": "train/learning_rate",
+        "description": ""
+      },
+      "train/rewards/chosen": {
+        "displayName": "train/rewards/chosen",
+        "description": ""
+      },
+      "train/rewards/rejected": {
+        "displayName": "train/rewards/rejected",
+        "description": ""
+      },
+      "train/rewards/accuracies": {
+        "displayName": "train/rewards/accuracies",
+        "description": ""
+      },
+      "train/rewards/margins": {
+        "displayName": "train/rewards/margins",
+        "description": ""
+      },
+      "train/logps/chosen": {
+        "displayName": "train/logps/chosen",
+        "description": ""
+      },
+      "train/logps/rejected": {
+        "displayName": "train/logps/rejected",
+        "description": ""
+      },
+      "train/logits/chosen": {
+        "displayName": "train/logits/chosen",
+        "description": ""
+      },
+      "train/logits/rejected": {
+        "displayName": "train/logits/rejected",
+        "description": ""
+      },
+      "train/epoch": {
+        "displayName": "train/epoch",
+        "description": ""
+      },
+      "eval/loss": {
+        "displayName": "eval/loss",
+        "description": ""
+      },
+      "eval/runtime": {
+        "displayName": "eval/runtime",
+        "description": ""
+      },
+      "eval/samples_per_second": {
+        "displayName": "eval/samples_per_second",
+        "description": ""
+      },
+      "eval/steps_per_second": {
+        "displayName": "eval/steps_per_second",
+        "description": ""
+      },
+      "eval/rewards/chosen": {
+        "displayName": "eval/rewards/chosen",
+        "description": ""
+      },
+      "eval/rewards/rejected": {
+        "displayName": "eval/rewards/rejected",
+        "description": ""
+      },
+      "eval/rewards/accuracies": {
+        "displayName": "eval/rewards/accuracies",
+        "description": ""
+      },
+      "eval/rewards/margins": {
+        "displayName": "eval/rewards/margins",
+        "description": ""
+      },
+      "eval/logps/chosen": {
+        "displayName": "eval/logps/chosen",
+        "description": ""
+      },
+      "eval/logps/rejected": {
+        "displayName": "eval/logps/rejected",
+        "description": ""
+      },
+      "eval/logits/chosen": {
+        "displayName": "eval/logits/chosen",
+        "description": ""
+      },
+      "eval/logits/rejected": {
+        "displayName": "eval/logits/rejected",
+        "description": ""
+      },
+      "train/train_runtime": {
+        "displayName": "train/train_runtime",
+        "description": ""
+      },
+      "train/train_samples_per_second": {
+        "displayName": "train/train_samples_per_second",
+        "description": ""
+      },
+      "train/train_steps_per_second": {
+        "displayName": "train/train_steps_per_second",
+        "description": ""
+      },
+      "train/total_flos": {
+        "displayName": "train/total_flos",
+        "description": ""
+      },
+      "train/train_loss": {
+        "displayName": "train/train_loss",
+        "description": ""
+      }
+    },
+    "lora": {
+      "train/loss": {
+        "displayName": "train/loss",
+        "description": ""
+      },
+      "train/grad_norm": {
+        "displayName": "train/grad_norm",
+        "description": ""
+      },
+      "train/learning_rate": {
+        "displayName": "train/learning_rate",
+        "description": ""
+      },
+      "train/entropy": {
+        "displayName": "train/entropy",
+        "description": ""
+      },
+      "train/num_tokens": {
+        "displayName": "train/num_tokens",
+        "description": ""
+      },
+      "train/mean_token_accuracy": {
+        "displayName": "train/mean_token_accuracy",
+        "description": ""
+      },
+      "train/epoch": {
+        "displayName": "train/epoch",
+        "description": ""
+      },
+      "eval/loss": {
+        "displayName": "eval/loss",
+        "description": ""
+      },
+      "eval/runtime": {
+        "displayName": "eval/runtime",
+        "description": ""
+      },
+      "eval/samples_per_second": {
+        "displayName": "eval/samples_per_second",
+        "description": ""
+      },
+      "eval/steps_per_second": {
+        "displayName": "eval/steps_per_second",
+        "description": ""
+      },
+      "eval/entropy": {
+        "displayName": "eval/entropy",
+        "description": ""
+      },
+      "eval/num_tokens": {
+        "displayName": "eval/num_tokens",
+        "description": ""
+      },
+      "eval/mean_token_accuracy": {
+        "displayName": "eval/mean_token_accuracy",
+        "description": ""
+      },
+      "train/train_runtime": {
+        "displayName": "train/train_runtime",
+        "description": ""
+      },
+      "train/train_samples_per_second": {
+        "displayName": "train/train_samples_per_second",
+        "description": ""
+      },
+      "train/train_steps_per_second": {
+        "displayName": "train/train_steps_per_second",
+        "description": ""
+      },
+      "train/total_flos": {
+        "displayName": "train/total_flos",
+        "description": ""
+      },
+      "train/train_loss": {
+        "displayName": "train/train_loss",
+        "description": ""
+      }
+    },
+    "nanogpt": {
+      "train_loss": {
+        "displayName": "train_loss",
+        "description": ""
+      },
+      "grad_norm_before_clip": {
+        "displayName": "grad_norm_before_clip",
+        "description": ""
+      },
+      "learning_rate": {
+        "displayName": "learning_rate",
+        "description": ""
+      },
+      "tokens_per_second": {
+        "displayName": "tokens_per_second",
+        "description": ""
+      },
+      "raw_validation_loss": {
+        "displayName": "raw_validation_loss",
+        "description": ""
+      }
+    },
+    "sft": {
+      "train/loss": {
+        "displayName": "train/loss",
+        "description": ""
+      },
+      "train/grad_norm": {
+        "displayName": "train/grad_norm",
+        "description": ""
+      },
+      "train/learning_rate": {
+        "displayName": "train/learning_rate",
+        "description": ""
+      },
+      "train/entropy": {
+        "displayName": "train/entropy",
+        "description": ""
+      },
+      "train/num_tokens": {
+        "displayName": "train/num_tokens",
+        "description": ""
+      },
+      "train/mean_token_accuracy": {
+        "displayName": "train/mean_token_accuracy",
+        "description": ""
+      },
+      "train/epoch": {
+        "displayName": "train/epoch",
+        "description": ""
+      },
+      "eval/loss": {
+        "displayName": "eval/loss",
+        "description": ""
+      },
+      "eval/runtime": {
+        "displayName": "eval/runtime",
+        "description": ""
+      },
+      "eval/samples_per_second": {
+        "displayName": "eval/samples_per_second",
+        "description": ""
+      },
+      "eval/steps_per_second": {
+        "displayName": "eval/steps_per_second",
+        "description": ""
+      },
+      "eval/entropy": {
+        "displayName": "eval/entropy",
+        "description": ""
+      },
+      "eval/num_tokens": {
+        "displayName": "eval/num_tokens",
+        "description": ""
+      },
+      "eval/mean_token_accuracy": {
+        "displayName": "eval/mean_token_accuracy",
+        "description": ""
+      },
+      "train/train_runtime": {
+        "displayName": "train/train_runtime",
+        "description": ""
+      },
+      "train/train_samples_per_second": {
+        "displayName": "train/train_samples_per_second",
+        "description": ""
+      },
+      "train/train_steps_per_second": {
+        "displayName": "train/train_steps_per_second",
+        "description": ""
+      },
+      "train/total_flos": {
+        "displayName": "train/total_flos",
+        "description": ""
+      },
+      "train/train_loss": {
+        "displayName": "train/train_loss",
+        "description": ""
+      }
+    }
+  }
+}

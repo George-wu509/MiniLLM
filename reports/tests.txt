@@ -1,0 +1,101 @@
+test_accumulation_matches_full_batch_with_different_response_lengths (test_lab.LaboratoryTests.test_accumulation_matches_full_batch_with_different_response_lengths) ... ok
+test_api_health_generation_metrics_and_invalid_requests (test_lab.LaboratoryTests.test_api_health_generation_metrics_and_invalid_requests) ... C:\LLM\MiniLLM\.venv\Lib\site-packages\starlette\testclient.py:51: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+  _PortalFactoryType = Callable[[], AbstractContextManager[anyio.abc.BlockingPortal]]
+Token indices sequence length is longer than the specified maximum sequence length for this model (2015 > 512). Running this sequence through the model will result in indexing errors
+ok
+test_byte_tokenizer_and_chat_template (test_lab.LaboratoryTests.test_byte_tokenizer_and_chat_template) ... ok
+test_causal_attention_and_cached_logits (test_lab.LaboratoryTests.test_causal_attention_and_cached_logits) ... ok
+Saved random initialization: C:\LLM\MiniLLM\.cache\tests\tmp39j6bb3t\uninterrupted\initialized
+base step 2/4 loss=6.4629 val=6.2996 grad=2.934
+base step 4/4 loss=6.1595 val=6.1579 grad=2.285
+Saved random initialization: C:\LLM\MiniLLM\.cache\tests\tmp39j6bb3t\resumed\initialized
+base step 4/4 loss=6.1595 val=6.1579 grad=2.285
+test_checkpoint_optimizer_rng_resume_matches_uninterrupted (test_lab.LaboratoryTests.test_checkpoint_optimizer_rng_resume_matches_uninterrupted) ... ok
+test_clean_dedup_and_group_split (test_lab.LaboratoryTests.test_clean_dedup_and_group_split) ... ok
+test_completion_and_padding_masks (test_lab.LaboratoryTests.test_completion_and_padding_masks) ... ok
+test_jsonl_txt_parquet_input (test_lab.LaboratoryTests.test_jsonl_txt_parquet_input) ... ok
+test_lora_updates_only_adapter (test_lab.LaboratoryTests.test_lora_updates_only_adapter) ... ok
+test_save_reload_preserves_weights_and_logits (test_lab.LaboratoryTests.test_save_reload_preserves_weights_and_logits) ... ok
+test_trl_sft_dpo_lora_resume_matches_uninterrupted (test_lab.LaboratoryTests.test_trl_sft_dpo_lora_resume_matches_uninterrupted) ... There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+{'loss': 6.4184, 'grad_norm': 14.168471336364746, 'learning_rate': 0.0, 'entropy': 6.697381973266602, 'num_tokens': 171.0, 'mean_token_accuracy': 0.10000000149011612, 'epoch': 0.0392156862745098}
+{'loss': 6.5982, 'grad_norm': 15.756085395812988, 'learning_rate': 0.0002, 'entropy': 6.697437524795532, 'num_tokens': 342.0, 'mean_token_accuracy': 0.0, 'epoch': 0.0784313725490196}
+{'eval_loss': 5.95493745803833, 'eval_runtime': 0.0198, 'eval_samples_per_second': 910.167, 'eval_steps_per_second': 455.084, 'eval_entropy': 6.6965438524882, 'eval_num_tokens': 342.0, 'eval_mean_token_accuracy': 0.39259259899457294, 'epoch': 0.0784313725490196}
+{'loss': 6.0175, 'grad_norm': 9.255977630615234, 'learning_rate': 0.00015000000000000001, 'entropy': 6.696574449539185, 'num_tokens': 513.0, 'mean_token_accuracy': 0.36666667461395264, 'epoch': 0.11764705882352941}
+{'loss': 5.8557, 'grad_norm': 7.8250532150268555, 'learning_rate': 5.000000000000002e-05, 'entropy': 6.695228338241577, 'num_tokens': 685.0, 'mean_token_accuracy': 0.3333333432674408, 'epoch': 0.1568627450980392}
+{'eval_loss': 5.711694717407227, 'eval_runtime': 0.025, 'eval_samples_per_second': 720.004, 'eval_steps_per_second': 360.002, 'eval_entropy': 6.694601111941868, 'eval_num_tokens': 685.0, 'eval_mean_token_accuracy': 0.39259259899457294, 'epoch': 0.1568627450980392}
+{'train_runtime': 0.1837, 'train_samples_per_second': 87.107, 'train_steps_per_second': 21.777, 'train_loss': 6.222453594207764, 'epoch': 0.1568627450980392}
+{'eval_loss': 5.711694717407227, 'eval_runtime': 0.0191, 'eval_samples_per_second': 943.459, 'eval_steps_per_second': 471.729, 'eval_entropy': 6.694601111941868, 'eval_num_tokens': 685.0, 'eval_mean_token_accuracy': 0.39259259899457294, 'epoch': 0.1568627450980392}
+{'loss': 6.0175, 'grad_norm': 9.255977630615234, 'learning_rate': 0.00015000000000000001, 'entropy': 6.696574449539185, 'num_tokens': 513.0, 'mean_token_accuracy': 0.36666667461395264, 'epoch': 0.11764705882352941}
+{'loss': 5.8557, 'grad_norm': 7.8250532150268555, 'learning_rate': 5.000000000000002e-05, 'entropy': 6.695228338241577, 'num_tokens': 685.0, 'mean_token_accuracy': 0.3333333432674408, 'epoch': 0.1568627450980392}
+{'eval_loss': 5.711694717407227, 'eval_runtime': 0.0224, 'eval_samples_per_second': 804.303, 'eval_steps_per_second': 402.151, 'eval_entropy': 6.694601111941868, 'eval_num_tokens': 685.0, 'eval_mean_token_accuracy': 0.39259259899457294, 'epoch': 0.1568627450980392}
+{'train_runtime': 0.106, 'train_samples_per_second': 151.009, 'train_steps_per_second': 37.752, 'train_loss': 2.9682929515838623, 'epoch': 0.1568627450980392}
+{'eval_loss': 5.711694717407227, 'eval_runtime': 0.0196, 'eval_samples_per_second': 920.319, 'eval_steps_per_second': 460.16, 'eval_entropy': 6.694601111941868, 'eval_num_tokens': 685.0, 'eval_mean_token_accuracy': 0.39259259899457294, 'epoch': 0.1568627450980392}
+
+Extracting prompt in train dataset:   0%|          | 0/102 [00:00<?, ? examples/s]
+Extracting prompt in train dataset: 100%|##########| 102/102 [00:00<00:00, 18956.89 examples/s]
+
+Applying chat template to train dataset:   0%|          | 0/102 [00:00<?, ? examples/s]
+Applying chat template to train dataset: 100%|##########| 102/102 [00:00<00:00, 25500.33 examples/s]
+
+Tokenizing train dataset:   0%|          | 0/102 [00:00<?, ? examples/s]
+Tokenizing train dataset: 100%|##########| 102/102 [00:00<00:00, 6050.25 examples/s]
+
+Extracting prompt in eval dataset:   0%|          | 0/18 [00:00<?, ? examples/s]
+Extracting prompt in eval dataset: 100%|##########| 18/18 [00:00<00:00, 18005.60 examples/s]
+
+Applying chat template to eval dataset:   0%|          | 0/18 [00:00<?, ? examples/s]
+Applying chat template to eval dataset: 100%|##########| 18/18 [00:00<00:00, 9000.65 examples/s]
+
+Tokenizing eval dataset:   0%|          | 0/18 [00:00<?, ? examples/s]
+Tokenizing eval dataset: 100%|##########| 18/18 [00:00<00:00, 5140.43 examples/s]
+{'loss': 0.6931, 'grad_norm': 0.5640458464622498, 'learning_rate': 0.0, 'rewards/chosen': 0.0, 'rewards/rejected': 0.0, 'rewards/accuracies': 0.0, 'rewards/margins': 0.0, 'logps/chosen': -13.271581649780273, 'logps/rejected': -14.900532722473145, 'logits/chosen': -0.2742369771003723, 'logits/rejected': -0.2823954224586487, 'epoch': 0.0392156862745098}
+
+{'loss': 0.6931, 'grad_norm': 0.5229754447937012, 'learning_rate': 5e-05, 'rewards/chosen': 0.0, 'rewards/rejected': 0.0, 'rewards/accuracies': 0.0, 'rewards/margins': 0.0, 'logps/chosen': -13.436054229736328, 'logps/rejected': -14.573721885681152, 'logits/chosen': -0.2810783386230469, 'logits/rejected': -0.2867748439311981, 'epoch': 0.0784313725490196}
+{'eval_loss': 0.691964864730835, 'eval_runtime': 0.0474, 'eval_samples_per_second': 379.89, 'eval_steps_per_second': 189.945, 'eval_rewards/chosen': -0.0030346661806106567, 'eval_rewards/rejected': -0.005417087115347385, 'eval_rewards/accuracies': 0.5555555820465088, 'eval_rewards/margins': 0.002382421400398016, 'eval_logps/chosen': -12.763208389282227, 'eval_logps/rejected': -13.915715217590332, 'eval_logits/chosen': -0.28823697566986084, 'eval_logits/rejected': -0.2958683669567108, 'epoch': 0.0784313725490196}
+{'loss': 0.6928, 'grad_norm': 1.1161463260650635, 'learning_rate': 3.7500000000000003e-05, 'rewards/chosen': -0.005460262298583984, 'rewards/rejected': -0.006238055415451527, 'rewards/accuracies': 0.5, 'rewards/margins': 0.0007777930586598814, 'logps/chosen': -13.772648811340332, 'logps/rejected': -14.824357986450195, 'logits/chosen': -0.30637025833129883, 'logits/rejected': -0.301227331161499, 'epoch': 0.11764705882352941}
+{'loss': 0.6917, 'grad_norm': 0.601443886756897, 'learning_rate': 1.2500000000000006e-05, 'rewards/chosen': -0.011935782618820667, 'rewards/rejected': -0.014915299601852894, 'rewards/accuracies': 0.75, 'rewards/margins': 0.0029795169830322266, 'logps/chosen': -15.499626159667969, 'logps/rejected': -15.743390083312988, 'logits/chosen': -0.3009894788265228, 'logits/rejected': -0.3244814872741699, 'epoch': 0.1568627450980392}
+{'eval_loss': 0.6906046867370605, 'eval_runtime': 0.0841, 'eval_samples_per_second': 214.113, 'eval_steps_per_second': 107.057, 'eval_rewards/chosen': -0.0041828155517578125, 'eval_rewards/rejected': -0.009325684979557991, 'eval_rewards/accuracies': 0.6666666865348816, 'eval_rewards/margins': 0.005142868962138891, 'eval_logps/chosen': -12.774690628051758, 'eval_logps/rejected': -13.954801559448242, 'eval_logits/chosen': -0.28706833720207214, 'eval_logits/rejected': -0.295398473739624, 'epoch': 0.1568627450980392}
+{'train_runtime': 0.312, 'train_samples_per_second': 51.283, 'train_steps_per_second': 12.821, 'train_loss': 0.692679762840271, 'epoch': 0.1568627450980392}
+{'eval_loss': 0.6906046867370605, 'eval_runtime': 0.0857, 'eval_samples_per_second': 210.076, 'eval_steps_per_second': 105.038, 'eval_rewards/chosen': -0.0041828155517578125, 'eval_rewards/rejected': -0.009325684979557991, 'eval_rewards/accuracies': 0.6666666865348816, 'eval_rewards/margins': 0.005142868962138891, 'eval_logps/chosen': -12.774690628051758, 'eval_logps/rejected': -13.954801559448242, 'eval_logits/chosen': -0.28706833720207214, 'eval_logits/rejected': -0.295398473739624, 'epoch': 0.1568627450980392}
+Extracting prompt in train dataset:   0%|          | 0/102 [00:00<?, ? examples/s]
+Extracting prompt in train dataset: 100%|##########| 102/102 [00:00<00:00, 24967.55 examples/s]
+
+Applying chat template to train dataset:   0%|          | 0/102 [00:00<?, ? examples/s]
+Applying chat template to train dataset: 100%|##########| 102/102 [00:00<00:00, 50725.52 examples/s]
+
+Tokenizing train dataset:   0%|          | 0/102 [00:00<?, ? examples/s]
+Tokenizing train dataset: 100%|##########| 102/102 [00:00<00:00, 6322.32 examples/s]
+
+Extracting prompt in eval dataset:   0%|          | 0/18 [00:00<?, ? examples/s]
+Extracting prompt in eval dataset: 100%|##########| 18/18 [00:00<00:00, 9015.70 examples/s]
+
+Applying chat template to eval dataset:   0%|          | 0/18 [00:00<?, ? examples/s]
+Applying chat template to eval dataset: 100%|##########| 18/18 [00:00<00:00, 18481.63 examples/s]
+
+Tokenizing eval dataset:   0%|          | 0/18 [00:00<?, ? examples/s]
+Tokenizing eval dataset: 100%|##########| 18/18 [00:00<00:00, 4509.47 examples/s]
+There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 6.785s
+
+OK
+{'loss': 0.6928, 'grad_norm': 1.1161463260650635, 'learning_rate': 3.7500000000000003e-05, 'rewards/chosen': -0.005460262298583984, 'rewards/rejected': -0.006238055415451527, 'rewards/accuracies': 0.5, 'rewards/margins': 0.0007777930586598814, 'logps/chosen': -13.772648811340332, 'logps/rejected': -14.824357986450195, 'logits/chosen': -0.30637025833129883, 'logits/rejected': -0.301227331161499, 'epoch': 0.11764705882352941}
+{'loss': 0.6917, 'grad_norm': 0.601443886756897, 'learning_rate': 1.2500000000000006e-05, 'rewards/chosen': -0.011935782618820667, 'rewards/rejected': -0.014915299601852894, 'rewards/accuracies': 0.75, 'rewards/margins': 0.0029795169830322266, 'logps/chosen': -15.499626159667969, 'logps/rejected': -15.743390083312988, 'logits/chosen': -0.3009894788265228, 'logits/rejected': -0.3244814872741699, 'epoch': 0.1568627450980392}
+{'eval_loss': 0.6906046867370605, 'eval_runtime': 0.0486, 'eval_samples_per_second': 370.171, 'eval_steps_per_second': 185.085, 'eval_rewards/chosen': -0.0041828155517578125, 'eval_rewards/rejected': -0.009325684979557991, 'eval_rewards/accuracies': 0.6666666865348816, 'eval_rewards/margins': 0.005142868962138891, 'eval_logps/chosen': -12.774690628051758, 'eval_logps/rejected': -13.954801559448242, 'eval_logits/chosen': -0.28706833720207214, 'eval_logits/rejected': -0.295398473739624, 'epoch': 0.1568627450980392}
+{'train_runtime': 0.1822, 'train_samples_per_second': 87.816, 'train_steps_per_second': 21.954, 'train_loss': 0.3461061716079712, 'epoch': 0.1568627450980392}
+{'eval_loss': 0.6906046867370605, 'eval_runtime': 0.0449, 'eval_samples_per_second': 401.083, 'eval_steps_per_second': 200.542, 'eval_rewards/chosen': -0.0041828155517578125, 'eval_rewards/rejected': -0.009325684979557991, 'eval_rewards/accuracies': 0.6666666865348816, 'eval_rewards/margins': 0.005142868962138891, 'eval_logps/chosen': -12.774690628051758, 'eval_logps/rejected': -13.954801559448242, 'eval_logits/chosen': -0.28706833720207214, 'eval_logits/rejected': -0.295398473739624, 'epoch': 0.1568627450980392}
+{'loss': 6.1692, 'grad_norm': 1.703447699546814, 'learning_rate': 0.0, 'entropy': 6.6534202098846436, 'num_tokens': 172.0, 'mean_token_accuracy': 0.09307359531521797, 'epoch': 0.05263157894736842}
+{'loss': 6.074, 'grad_norm': 1.7691335678100586, 'learning_rate': 0.0005, 'entropy': 6.654885292053223, 'num_tokens': 343.0, 'mean_token_accuracy': 0.10049019753932953, 'epoch': 0.10526315789473684}
+{'eval_loss': 6.011294364929199, 'eval_runtime': 0.0095, 'eval_samples_per_second': 528.21, 'eval_steps_per_second': 316.926, 'eval_entropy': 6.6468431154886884, 'eval_num_tokens': 343.0, 'eval_mean_token_accuracy': 0.08454106499751408, 'epoch': 0.10526315789473684}
+{'loss': 6.1215, 'grad_norm': 1.4784753322601318, 'learning_rate': 0.000375, 'entropy': 6.645864963531494, 'num_tokens': 515.0, 'mean_token_accuracy': 0.09109731018543243, 'epoch': 0.15789473684210525}
+{'loss': 6.0241, 'grad_norm': 1.5435469150543213, 'learning_rate': 0.00012500000000000006, 'entropy': 6.644132614135742, 'num_tokens': 710.0, 'mean_token_accuracy': 0.07846153900027275, 'epoch': 0.21052631578947367}
+{'eval_loss': 5.977385997772217, 'eval_runtime': 0.0087, 'eval_samples_per_second': 575.429, 'eval_steps_per_second': 345.258, 'eval_entropy': 6.641239484151204, 'eval_num_tokens': 710.0, 'eval_mean_token_accuracy': 0.08454106499751408, 'epoch': 0.21052631578947367}
+{'train_runtime': 0.2215, 'train_samples_per_second': 72.24, 'train_steps_per_second': 18.06, 'train_loss': 6.097219824790955, 'epoch': 0.21052631578947367}
+{'eval_loss': 5.977385997772217, 'eval_runtime': 0.0171, 'eval_samples_per_second': 292.514, 'eval_steps_per_second': 175.509, 'eval_entropy': 6.641239484151204, 'eval_num_tokens': 710.0, 'eval_mean_token_accuracy': 0.08454106499751408, 'epoch': 0.21052631578947367}
+{'loss': 6.1215, 'grad_norm': 1.4784753322601318, 'learning_rate': 0.000375, 'entropy': 6.645864963531494, 'num_tokens': 515.0, 'mean_token_accuracy': 0.09109731018543243, 'epoch': 0.15789473684210525}
+{'loss': 6.0241, 'grad_norm': 1.5435469150543213, 'learning_rate': 0.00012500000000000006, 'entropy': 6.644132614135742, 'num_tokens': 710.0, 'mean_token_accuracy': 0.07846153900027275, 'epoch': 0.21052631578947367}
+{'eval_loss': 5.977385997772217, 'eval_runtime': 0.01, 'eval_samples_per_second': 499.989, 'eval_steps_per_second': 299.993, 'eval_entropy': 6.641239484151204, 'eval_num_tokens': 710.0, 'eval_mean_token_accuracy': 0.08454106499751408, 'epoch': 0.21052631578947367}
+{'train_runtime': 0.1042, 'train_samples_per_second': 153.589, 'train_steps_per_second': 38.397, 'train_loss': 3.036407232284546, 'epoch': 0.21052631578947367}
+{'eval_loss': 5.977385997772217, 'eval_runtime': 0.0115, 'eval_samples_per_second': 435.944, 'eval_steps_per_second': 261.566, 'eval_entropy': 6.641239484151204, 'eval_num_tokens': 710.0, 'eval_mean_token_accuracy': 0.08454106499751408, 'epoch': 0.21052631578947367}

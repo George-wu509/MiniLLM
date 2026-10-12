@@ -1,0 +1,80 @@
+{"instruction": "Lab question 0: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 1: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 2: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 3: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 4: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 5: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 6: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 7: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 8: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 9: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 10: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 11: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 12: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 13: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 14: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 15: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 16: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 17: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 18: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 19: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 20: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 21: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 22: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 23: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 24: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 25: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 26: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 27: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 28: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 29: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 30: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 31: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 32: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 33: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 34: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 35: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 36: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 37: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 38: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 39: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 40: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 41: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 42: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 43: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 44: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 45: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 46: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 47: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 48: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 49: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 50: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 51: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 52: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 53: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 54: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 55: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 56: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 57: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 58: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 59: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 60: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 61: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 62: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 63: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 64: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 65: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 66: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 67: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 68: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 69: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 70: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 71: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}
+{"instruction": "Lab question 72: explain Transformer.", "output": "Transformer uses attention to connect tokens in a sequence."}
+{"instruction": "Lab question 73: explain 預訓練.", "output": "預訓練從隨機權重開始,透過預測下一個 token 學習語言。"}
+{"instruction": "Lab question 74: explain SFT.", "output": "SFT 使用指令與回答資料,讓模型學習遵循指令。"}
+{"instruction": "Lab question 75: explain LoRA.", "output": "LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。"}
+{"instruction": "Lab question 76: explain DPO.", "output": "DPO 使用偏好配對,比較 chosen 與 rejected 回答。"}
+{"instruction": "Lab question 77: explain KV cache.", "output": "KV cache reuses attention keys and values during autoregressive generation."}
+{"instruction": "Lab question 78: explain validation.", "output": "Validation data is held out from training to estimate generalization."}
+{"instruction": "Lab question 79: explain optimizer.", "output": "AdamW updates parameters using gradients and decoupled weight decay."}

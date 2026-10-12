@@ -1,0 +1,283 @@
+{"text": "Laboratory note 0. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 0 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 1. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 1 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 2. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 2 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 3. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 3 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 4. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 4 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 5. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 5 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 6. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 6 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 7. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 7 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 8. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 8 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 9. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 9 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 10. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 10 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 11. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 11 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 12. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 12 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 13. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 13 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 14. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 14 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 15. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 15 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 16. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 16 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 17. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 17 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 18. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 18 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 19. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 19 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 20. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 20 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 21. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 21 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 22. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 22 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 23. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 23 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 24. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 24 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 25. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 25 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 26. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 26 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 27. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 27 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 28. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 28 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 29. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 29 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 30. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 30 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 31. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 31 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 32. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 32 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 33. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 33 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 34. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 34 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 35. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 35 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 36. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 36 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 37. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 37 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 38. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 38 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 39. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 39 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 40. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 40 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 41. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 41 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 42. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 42 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 43. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 43 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 44. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 44 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 45. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 45 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 46. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 46 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 47. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 47 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 48. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 48 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 49. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 49 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 50. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 50 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 51. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 51 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 52. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 52 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 53. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 53 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 54. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 54 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 55. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 55 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 56. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 56 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 57. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 57 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 58. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 58 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 59. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 59 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 60. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 60 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 61. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 61 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 62. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 62 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 63. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 63 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 64. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 64 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 65. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 65 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 66. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 66 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 67. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 67 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 68. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 68 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 69. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 69 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 70. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 70 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 71. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 71 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 72. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 72 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 73. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 73 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 74. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 74 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 75. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 75 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 76. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 76 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 77. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 77 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 78. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 78 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 79. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 79 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 80. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 80 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 81. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 81 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 82. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 82 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 83. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 83 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 84. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 84 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 85. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 85 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 86. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 86 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 87. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 87 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 88. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 88 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 89. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 89 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 90. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 90 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 91. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 91 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 92. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 92 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 93. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 93 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 94. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 94 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 95. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 95 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 96. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 96 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 97. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 97 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 98. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 98 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 99. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 99 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 100. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 100 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 101. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 101 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 102. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 102 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 103. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 103 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 104. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 104 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 105. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 105 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 106. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 106 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 107. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 107 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 108. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 108 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 109. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 109 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 110. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 110 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 111. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 111 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 112. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 112 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 113. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 113 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 114. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 114 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 115. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 115 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 116. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 116 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 117. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 117 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 118. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 118 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 119. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 119 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 120. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 120 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 121. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 121 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 122. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 122 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 123. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 123 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 124. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 124 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 125. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 125 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 126. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 126 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 127. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 127 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 128. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 128 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 129. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 129 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 130. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 130 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 131. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 131 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 132. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 132 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 133. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 133 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 134. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 134 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 135. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 135 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 136. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 136 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 137. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 137 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 138. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 138 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 139. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 139 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 140. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 140 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 141. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 141 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 142. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 142 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 143. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 143 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 144. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 144 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 145. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 145 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 146. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 146 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 147. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 147 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 148. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 148 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 149. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 149 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 150. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 150 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 151. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 151 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 152. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 152 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 153. 預訓練從隨機權重開始,透過預測下一個 token 學習語言。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 153 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 154. SFT 使用指令與回答資料,讓模型學習遵循指令。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 154 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 155. LoRA 凍結原始權重,只訓練低秩矩陣,減少可訓練參數。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 155 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 156. DPO 使用偏好配對,比較 chosen 與 rejected 回答。 A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 156 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 157. KV cache reuses attention keys and values during autoregressive generation. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 157 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 158. Validation data is held out from training to estimate generalization. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 158 observes training loss, gradients, and validation loss."}
+{"text": "Laboratory note 159. AdamW updates parameters using gradients and decoupled weight decay. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 159 observes training loss, gradients, and validation loss."}
+{"text": "Arithmetic example: 1 plus 1 equals 2. We add two numbers and write their sum as 2."}
+{"text": "Arithmetic example: 1 plus 2 equals 3. We add two numbers and write their sum as 3."}
+{"text": "Arithmetic example: 1 plus 3 equals 4. We add two numbers and write their sum as 4."}
+{"text": "Arithmetic example: 1 plus 4 equals 5. We add two numbers and write their sum as 5."}
+{"text": "Arithmetic example: 1 plus 5 equals 6. We add two numbers and write their sum as 6."}
+{"text": "Arithmetic example: 1 plus 6 equals 7. We add two numbers and write their sum as 7."}
+{"text": "Arithmetic example: 1 plus 7 equals 8. We add two numbers and write their sum as 8."}
+{"text": "Arithmetic example: 1 plus 8 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 2 plus 1 equals 3. We add two numbers and write their sum as 3."}
+{"text": "Arithmetic example: 2 plus 2 equals 4. We add two numbers and write their sum as 4."}
+{"text": "Arithmetic example: 2 plus 3 equals 5. We add two numbers and write their sum as 5."}
+{"text": "Arithmetic example: 2 plus 4 equals 6. We add two numbers and write their sum as 6."}
+{"text": "Arithmetic example: 2 plus 5 equals 7. We add two numbers and write their sum as 7."}
+{"text": "Arithmetic example: 2 plus 6 equals 8. We add two numbers and write their sum as 8."}
+{"text": "Arithmetic example: 2 plus 7 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 2 plus 8 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 3 plus 1 equals 4. We add two numbers and write their sum as 4."}
+{"text": "Arithmetic example: 3 plus 2 equals 5. We add two numbers and write their sum as 5."}
+{"text": "Arithmetic example: 3 plus 3 equals 6. We add two numbers and write their sum as 6."}
+{"text": "Arithmetic example: 3 plus 4 equals 7. We add two numbers and write their sum as 7."}
+{"text": "Arithmetic example: 3 plus 5 equals 8. We add two numbers and write their sum as 8."}
+{"text": "Arithmetic example: 3 plus 6 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 3 plus 7 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 3 plus 8 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 4 plus 1 equals 5. We add two numbers and write their sum as 5."}
+{"text": "Arithmetic example: 4 plus 2 equals 6. We add two numbers and write their sum as 6."}
+{"text": "Arithmetic example: 4 plus 3 equals 7. We add two numbers and write their sum as 7."}
+{"text": "Arithmetic example: 4 plus 4 equals 8. We add two numbers and write their sum as 8."}
+{"text": "Arithmetic example: 4 plus 5 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 4 plus 6 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 4 plus 7 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 4 plus 8 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 5 plus 1 equals 6. We add two numbers and write their sum as 6."}
+{"text": "Arithmetic example: 5 plus 2 equals 7. We add two numbers and write their sum as 7."}
+{"text": "Arithmetic example: 5 plus 3 equals 8. We add two numbers and write their sum as 8."}
+{"text": "Arithmetic example: 5 plus 4 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 5 plus 5 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 5 plus 6 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 5 plus 7 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 5 plus 8 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 6 plus 1 equals 7. We add two numbers and write their sum as 7."}
+{"text": "Arithmetic example: 6 plus 2 equals 8. We add two numbers and write their sum as 8."}
+{"text": "Arithmetic example: 6 plus 3 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 6 plus 4 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 6 plus 5 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 6 plus 6 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 6 plus 7 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 6 plus 8 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 7 plus 1 equals 8. We add two numbers and write their sum as 8."}
+{"text": "Arithmetic example: 7 plus 2 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 7 plus 3 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 7 plus 4 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 7 plus 5 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 7 plus 6 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 7 plus 7 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 7 plus 8 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 8 plus 1 equals 9. We add two numbers and write their sum as 9."}
+{"text": "Arithmetic example: 8 plus 2 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 8 plus 3 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 8 plus 4 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 8 plus 5 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 8 plus 6 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 8 plus 7 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 8 plus 8 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 9 plus 1 equals 10. We add two numbers and write their sum as 10."}
+{"text": "Arithmetic example: 9 plus 2 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 9 plus 3 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 9 plus 4 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 9 plus 5 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 9 plus 6 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 9 plus 7 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 9 plus 8 equals 17. We add two numbers and write their sum as 17."}
+{"text": "Arithmetic example: 10 plus 1 equals 11. We add two numbers and write their sum as 11."}
+{"text": "Arithmetic example: 10 plus 2 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 10 plus 3 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 10 plus 4 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 10 plus 5 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 10 plus 6 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 10 plus 7 equals 17. We add two numbers and write their sum as 17."}
+{"text": "Arithmetic example: 10 plus 8 equals 18. We add two numbers and write their sum as 18."}
+{"text": "Arithmetic example: 11 plus 1 equals 12. We add two numbers and write their sum as 12."}
+{"text": "Arithmetic example: 11 plus 2 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 11 plus 3 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 11 plus 4 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 11 plus 5 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 11 plus 6 equals 17. We add two numbers and write their sum as 17."}
+{"text": "Arithmetic example: 11 plus 7 equals 18. We add two numbers and write their sum as 18."}
+{"text": "Arithmetic example: 11 plus 8 equals 19. We add two numbers and write their sum as 19."}
+{"text": "Arithmetic example: 12 plus 1 equals 13. We add two numbers and write their sum as 13."}
+{"text": "Arithmetic example: 12 plus 2 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 12 plus 3 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 12 plus 4 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 12 plus 5 equals 17. We add two numbers and write their sum as 17."}
+{"text": "Arithmetic example: 12 plus 6 equals 18. We add two numbers and write their sum as 18."}
+{"text": "Arithmetic example: 12 plus 7 equals 19. We add two numbers and write their sum as 19."}
+{"text": "Arithmetic example: 12 plus 8 equals 20. We add two numbers and write their sum as 20."}
+{"text": "Arithmetic example: 13 plus 1 equals 14. We add two numbers and write their sum as 14."}
+{"text": "Arithmetic example: 13 plus 2 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 13 plus 3 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 13 plus 4 equals 17. We add two numbers and write their sum as 17."}
+{"text": "Arithmetic example: 13 plus 5 equals 18. We add two numbers and write their sum as 18."}
+{"text": "Arithmetic example: 13 plus 6 equals 19. We add two numbers and write their sum as 19."}
+{"text": "Arithmetic example: 13 plus 7 equals 20. We add two numbers and write their sum as 20."}
+{"text": "Arithmetic example: 13 plus 8 equals 21. We add two numbers and write their sum as 21."}
+{"text": "Arithmetic example: 14 plus 1 equals 15. We add two numbers and write their sum as 15."}
+{"text": "Arithmetic example: 14 plus 2 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 14 plus 3 equals 17. We add two numbers and write their sum as 17."}
+{"text": "Arithmetic example: 14 plus 4 equals 18. We add two numbers and write their sum as 18."}
+{"text": "Arithmetic example: 14 plus 5 equals 19. We add two numbers and write their sum as 19."}
+{"text": "Arithmetic example: 14 plus 6 equals 20. We add two numbers and write their sum as 20."}
+{"text": "Arithmetic example: 14 plus 7 equals 21. We add two numbers and write their sum as 21."}
+{"text": "Arithmetic example: 14 plus 8 equals 22. We add two numbers and write their sum as 22."}
+{"text": "Arithmetic example: 15 plus 1 equals 16. We add two numbers and write their sum as 16."}
+{"text": "Arithmetic example: 15 plus 2 equals 17. We add two numbers and write their sum as 17."}
+{"text": "Arithmetic example: 15 plus 3 equals 18. We add two numbers and write their sum as 18."}
+{"text": "Arithmetic example: 15 plus 4 equals 19. We add two numbers and write their sum as 19."}
+{"text": "Arithmetic example: 15 plus 5 equals 20. We add two numbers and write their sum as 20."}
+{"text": "Arithmetic example: 15 plus 6 equals 21. We add two numbers and write their sum as 21."}
+{"text": "Arithmetic example: 15 plus 7 equals 22. We add two numbers and write their sum as 22."}
+{"text": "Arithmetic example: 15 plus 8 equals 23. We add two numbers and write their sum as 23."}
+{"text": "Laboratory note 0. Transformer uses attention to connect tokens in a sequence. A checkpoint preserves model parameters. Dataset cleaning removes empty documents and exact duplicates. Experiment 0 observes training loss, gradients, and validation loss."}
+{"text": "   "}
+{"text": "\u0000 A clean laboratory keeps reproducible records. \r\n"}
