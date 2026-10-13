@@ -3,6 +3,8 @@ import json
 import os
 import random
 import subprocess
+import platform
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -82,6 +84,26 @@ def run_path(name):
     return ROOT / "artifacts" / name
 
 
+def repository_state(root=ROOT):
+    """Identify both committed and uncommitted source, without recording source contents."""
+    root = Path(root).resolve()
+    def git(*args):
+        return subprocess.check_output(["git", "-C", str(root), *args], stderr=subprocess.DEVNULL)
+    try:
+        commit = git("rev-parse", "HEAD").decode().strip()
+        branch = git("branch", "--show-current").decode().strip() or "detached"
+        dirty = bool(git("status", "--porcelain"))
+        names = git("ls-files", "-z", "--cached", "--others", "--exclude-standard").decode().split("\0")
+    except (OSError, subprocess.CalledProcessError):
+        return {"commit": None, "branch": None, "dirty": None, "source_sha256": None}
+    digest = hashlib.sha256()
+    for name in sorted(set(filter(None, names))):
+        path = root / name
+        digest.update(name.encode("utf-8") + b"\0")
+        digest.update((sha256(path) if path.is_file() else "missing").encode() + b"\0")
+    return {"commit": commit, "branch": branch, "dirty": dirty, "source_sha256": digest.hexdigest()}
+
+
 def provenance():
     import importlib.metadata as md
     versions = {}
@@ -90,7 +112,12 @@ def provenance():
     commits = {}
     for name in ("minimind", "nanogpt"):
         commits[name] = subprocess.check_output(["git", "-C", str(ROOT / "vendor" / name), "rev-parse", "HEAD"], text=True).strip()
-    return {"utc": datetime.now(timezone.utc).isoformat(), "versions": versions, "upstream_commits": commits}
+    return {"utc": datetime.now(timezone.utc).isoformat(), "versions": versions, "upstream_commits": commits,
+            "repository": repository_state(), "python": sys.version, "platform": platform.platform(),
+            "dependency_lock_sha256": sha256(ROOT / "requirements.lock.txt"),
+            "lock_files_sha256": {name: sha256(ROOT / name) for name in
+                                  ("requirements.lock.txt", "requirements-cpu.lock.txt", "requirements-dev.txt")
+                                  if (ROOT / name).is_file()}}
 
 
 def doctor():

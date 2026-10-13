@@ -1,0 +1,26 @@
+name: MiniLLM engineering change
+description: Define a reviewable change for a developer or AI agent
+title: '[Change] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Current behavior and desired behavior
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Observable acceptance criteria
+      description: Include examples, invalid inputs and compatibility requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope, fixtures and resource budget
+      description: Name likely files, data allowed for tests, and whether GPU training is authorized.
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation and rollback plan

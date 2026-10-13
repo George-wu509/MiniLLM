@@ -3,7 +3,7 @@ import re
 import unicodedata
 from pathlib import Path
 
-from .common import ROOT, jsonl, write_json, write_jsonl, sha256
+from .common import jsonl, read_json, write_json, write_jsonl, sha256
 
 CHAT_TEMPLATE = "{% for message in messages %}{{ '<|im_start|>' + message['role'] + '\\n' + message['content'] + '<|im_end|>\\n' }}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\\n' }}{% endif %}"
 
@@ -164,10 +164,29 @@ def prepare(run, cfg, paths):
                     raise ValueError(f"Not enough {split} tokens for block_size={cfg['block_size']}")
                 manifest.setdefault("tokens", {})[split] = count
     manifest["tokenizer"] = {"requested_vocab": cfg["vocab_size"], "actual_vocab": len(tokenizer), "training_partition": "pretrain/train", "byte_level": True, "sha256": sha256(run / "tokenizer" / "tokenizer.json")}
-    manifest["prepared_sha256"] = {str(p.relative_to(run)): sha256(p) for p in sorted((run / "data").rglob("*")) if p.is_file()}
+    manifest["tokenizer"]["files_sha256"] = {p.name: sha256(p) for p in (run / "tokenizer").iterdir() if p.is_file()}
+    manifest["prepared_sha256"] = {p.relative_to(run).as_posix(): sha256(p) for p in sorted((run / "data").rglob("*")) if p.is_file()}
     write_json(run / "data" / "manifest.json", manifest)
     write_json(run / "config.json", cfg)
     print(manifest["counts"])
+    return manifest
+
+
+def verify_prepared(run):
+    """Reject edited datasets/tokenizers before starting or resuming training."""
+    run = Path(run).resolve()
+    manifest = read_json(run / "data" / "manifest.json")
+    for name, expected in manifest["prepared_sha256"].items():
+        # Older Windows manifests used backslashes. New manifests are portable.
+        path = (run / name.replace("\\", "/")).resolve()
+        if not path.is_relative_to(run / "data") or not path.is_file() or sha256(path) != expected:
+            raise ValueError(f"Prepared dataset integrity mismatch: {name}")
+    if sha256(run / "tokenizer" / "tokenizer.json") != manifest["tokenizer"]["sha256"]:
+        raise ValueError("Prepared tokenizer integrity mismatch.")
+    for name, expected in manifest["tokenizer"].get("files_sha256", {}).items():
+        path = (run / "tokenizer" / name).resolve()
+        if not path.is_relative_to(run / "tokenizer") or not path.is_file() or sha256(path) != expected:
+            raise ValueError(f"Prepared tokenizer metadata integrity mismatch: {name}")
     return manifest
 
 

@@ -1,0 +1,12 @@
+# Repository owner inferred from origin. Add a second human reviewer for independent approval.
+* @George-wu509
+/.github/ @George-wu509
+/AGENTS.md @George-wu509
+/.agents/ @George-wu509
+/.claude/ @George-wu509
+/requirements*.txt @George-wu509
+/upstream-lock.json @George-wu509
+/minillm/data.py @George-wu509
+/minillm/modeling.py @George-wu509
+/minillm/posttrain.py @George-wu509
+/minillm/release.py @George-wu509

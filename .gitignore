@@ -7,3 +7,11 @@ runs/
 data/raw/*
 !data/raw/.gitkeep
 vendor/
+releases/
+reports/verification/
+.ruff_cache/
+.claude/settings.local.json
+CLAUDE.local.md
+.env
+.env.*
+!.env.example

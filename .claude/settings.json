@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "PowerShell(git status *)",
+      "PowerShell(git diff *)",
+      "PowerShell(git log *)",
+      "PowerShell(rg *)",
+      "PowerShell(.\\scripts\\verify.ps1 -Profile Fast)",
+      "PowerShell(.\\scripts\\verify.ps1 -Profile CPU)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(.venv/bin/python scripts/verify.py --profile fast)",
+      "Bash(.venv/bin/python scripts/verify.py --profile cpu)"
+    ],
+    "ask": [
+      "PowerShell(git push *)",
+      "PowerShell(git reset *)",
+      "PowerShell(git clean *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(git push *)",
+      "Bash(git reset *)",
+      "Bash(git clean *)"
+    ],
+    "deny": ["Read(.env)", "Read(.env.*)", "Read(secrets/**)", "Edit(secrets/**)"]
+  }
+}

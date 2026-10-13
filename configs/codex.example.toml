@@ -1,0 +1,8 @@
+# Example only; merge into the configuration appropriate to your installed client.
+# Do not combine this legacy sandbox configuration with default_permissions profiles.
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+approvals_reviewer = "user"
+
+[sandbox_workspace_write]
+network_access = false

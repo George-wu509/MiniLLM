@@ -4,7 +4,7 @@ import math
 import torch
 import torch.nn.functional as F
 
-from .common import jsonl, read_json, write_json, write_jsonl, sha256
+from .common import jsonl, read_json, write_json, write_jsonl, sha256, provenance
 from .data import prompt_completion
 from .inference import Engine, cache_benchmark
 from .pretrain import raw_loss
@@ -55,6 +55,10 @@ def compare(run, cfg, stages=None):
         raw = raw_loss(model, run, cfg)
         margins = [response_logp(model, tokenizer, row["prompt"], row["chosen"])-response_logp(model, tokenizer, row["prompt"], row["rejected"]) for row in pairs]
         summary = {"stage": stage, "raw_validation_loss": raw, "raw_perplexity": math.exp(min(raw, 50)),
+                   "model_weights_sha256": sha256(run / stage / ("adapter_model.safetensors" if stage == "lora" else "model.safetensors")),
+                   "tokenizer_sha256": sha256(run / "tokenizer" / "tokenizer.json"),
+                   "dataset_manifest_sha256": sha256(run / "data" / "manifest.json"),
+                   "evaluation_provenance": provenance(),
                    "sft_completion_loss": completion_loss(model, tokenizer, sft_rows, cfg["block_size"]),
                    "domain_completion_loss": completion_loss(model, tokenizer, domain_rows, cfg["block_size"]),
                    "preference_chosen_win_rate": sum(m > 0 for m in margins)/len(margins),

@@ -8,7 +8,7 @@ from transformers import TrainerCallback
 from trl import SFTConfig, SFTTrainer, DPOConfig, DPOTrainer
 
 from .common import jsonl, read_json, write_json, sha256, seed_all, device_for, precision_for, provenance
-from .data import prompt_completion
+from .data import prompt_completion, verify_prepared
 from .modeling import tokenizer_at, load_model, weight_stats
 
 
@@ -48,6 +48,7 @@ def completion_ce(outputs, labels, num_items_in_batch=None):
 
 
 def train(run, cfg, stage, parent=None, resume=None):
+    verify_prepared(run)
     parent = parent or ("sft" if stage in {"dpo", "lora"} else "base")
     if parent not in {"base", "sft", "dpo"} or parent == stage:
         raise ValueError("Parent must be a different full-model stage: base, sft or dpo.")

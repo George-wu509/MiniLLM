@@ -26,16 +26,17 @@ class ChatRequest(BaseModel):
     stream: bool = False
 
 
-def create_app(run, cfg, stage):
+def create_app(run, cfg, stage, log_path=None, release_id=None):
     app = FastAPI(title="MiniLLM local laboratory", version="1.0")
     engine = Engine(run, cfg, stage)
     lock = threading.Lock()
     counters = {"requests": 0, "completion_tokens": 0, "generation_seconds": 0.0}
-    log_path = run / "api_requests.jsonl"
+    log_path = log_path or run / "api_requests.jsonl"
+    log_path.parent.mkdir(parents=True, exist_ok=True)
 
     @app.get("/health")
     def health():
-        return {"status": "ok", "stage": stage, "device": str(engine.device)}
+        return {"status": "ok", "stage": stage, "device": str(engine.device), "release_id": release_id}
 
     @app.get("/metrics")
     def metrics():
@@ -58,7 +59,7 @@ def create_app(run, cfg, stage):
             counters["completion_tokens"] += result["completion_tokens"]
             counters["generation_seconds"] += result["seconds"]
             with log_path.open("a", encoding="utf-8") as handle:
-                handle.write(json.dumps({"time": time.time(), "stage": stage, "prompt_tokens": result["prompt_tokens"], "completion_tokens": result["completion_tokens"], "seconds": result["seconds"], "settings": result["settings"]}) + "\n")
+                handle.write(json.dumps({"time": time.time(), "stage": stage, "release_id": release_id, "prompt_tokens": result["prompt_tokens"], "completion_tokens": result["completion_tokens"], "seconds": result["seconds"], "settings": result["settings"]}) + "\n")
         return {"id": "chatcmpl-" + uuid.uuid4().hex, "object": "chat.completion", "created": int(time.time()), "model": stage,
                 "choices": [{"index": 0, "message": {"role": "assistant", "content": result["text"]}, "finish_reason": "stop" if result["token_ids"][-1] == engine.tokenizer.eos_token_id else "length"}],
                 "usage": {"prompt_tokens": result["prompt_tokens"], "completion_tokens": result["completion_tokens"], "total_tokens": result["prompt_tokens"]+result["completion_tokens"]}}

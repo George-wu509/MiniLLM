@@ -1,0 +1,8 @@
+{
+  "purpose": "laboratory-only: mechanical sanity checks, not production acceptance",
+  "metrics": {
+    "raw_validation_loss": {"min": 0, "max": 10},
+    "raw_perplexity": {"min": 1, "max": 22027},
+    "preference_chosen_win_rate": {"min": 0, "max": 1}
+  }
+}

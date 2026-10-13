@@ -7,7 +7,8 @@ import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
 
-from .common import seed_all, device_for, precision_for, write_json, write_jsonl, provenance, sha256
+from .common import seed_all, device_for, precision_for, write_json, provenance, sha256
+from .data import verify_prepared
 from .modeling import fresh_model, tokenizer_at, load_model, weight_stats
 
 
@@ -51,6 +52,7 @@ def raw_loss(model, run, cfg, nano=False):
 
 
 def initialize(run, cfg):
+    verify_prepared(run)
     target = run / "initialized"
     if (target / "model.safetensors").exists():
         return target
@@ -74,6 +76,7 @@ def lr_factor(step, total, warmup):
 
 
 def train(run, cfg, resume=None, nano=False):
+    verify_prepared(run)
     stage = "nanogpt" if nano else "base"
     target = run / stage
     if (target / "model.safetensors").exists() or (target / "final.pt").exists():

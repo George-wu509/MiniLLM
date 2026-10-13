@@ -3,7 +3,6 @@ import importlib.util
 import sys
 from pathlib import Path
 
-import torch
 from torch import nn
 from .common import ROOT, read_json
 

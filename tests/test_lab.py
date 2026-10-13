@@ -1,6 +1,5 @@
 import copy
 import faulthandler
-import json
 import shutil
 import tempfile
 import unittest
@@ -14,22 +13,23 @@ from minillm.common import ROOT, read_json, seed_all
 from minillm.data import clean, split_rows, prompt_completion, read_rows
 from minillm.modeling import fresh_model, load_model, tokenizer_at
 from minillm.posttrain import CompletionCollator, completion_ce
-
-faulthandler.dump_traceback_later(60)
+from tests.fixtures import model_fixture
 
 
 class LaboratoryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.lab_run = ROOT / "artifacts" / "smoke"
-        cls.cfg = read_json(cls.lab_run / "config.json")
-        cls.tokenizer = tokenizer_at(cls.lab_run)
-        seed_all(42)
-        cls.model = fresh_model(cls.cfg, cls.tokenizer).eval()
+        faulthandler.dump_traceback_later(120)
         test_root = ROOT / ".cache" / "tests"
         test_root.mkdir(parents=True, exist_ok=True)
         cls.temporary = tempfile.TemporaryDirectory(dir=test_root)
         cls.temp = Path(cls.temporary.name)
+        cls.addClassCleanup(cls.temporary.cleanup)
+        cls.addClassCleanup(faulthandler.cancel_dump_traceback_later)
+        cls.lab_run, cls.cfg = model_fixture(cls.temp / "fixture")
+        cls.tokenizer = tokenizer_at(cls.lab_run)
+        seed_all(42)
+        cls.model = fresh_model(cls.cfg, cls.tokenizer).eval()
 
     @classmethod
     def tearDownClass(cls):

@@ -179,3 +179,15 @@ artifacts/<run>/
 API 與 TensorBoard 的真正 HTTP 啟動/讀取測試可用 `.\.venv\Scripts\python.exe scripts/verify_services.py` 重現；此程式會自動關閉自己啟動的測試服務，平常不留背景程序。若在受限沙箱內測試，Windows localhost socket 限制可能使 asyncio/TestClient 卡住，請允許本機 socket 或從一般 PowerShell 執行。
 
 若 CUDA OOM，先降低 batch/context 或模型尺寸，使用 gradient accumulation 維持 effective batch。DPO 會同時保留 policy/reference；不要將 SFT 的記憶體需求當成 DPO 的需求。修改結構/context 後，以新的 run 重新準備資料；真實語料應依來源記錄授權、版本與清理規則。
+
+## AI Software Engineering / SDLC
+
+本 repo 已加入自足 CPU/GPU verification、Agent 規範與 Skills、GitHub CI、實驗來源追蹤及模型候選包。
+設定與 Codex／Claude 具體開發範例見 [工程教學](docs/engineering.md)，發布／rollback 見 [release guide](docs/release.md)。
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+.\scripts\verify.ps1 -Profile CPU
+```
+
+CI／候選包不會自動授予人工批准或部署權限；GitHub rulesets 需要在伺服器端啟用。
